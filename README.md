@@ -120,10 +120,6 @@ Be aware when you download XMiner binaries from other sources.
 
 ## API Reference
 
-### Web Monitor
-
-Open http://api_host:port/ in your browser to use web monitor.
-
 ### Request
 
 GET http://api_host:port/api/v1/status
@@ -131,5 +127,29 @@ GET http://api_host:port/api/v1/status
 ### Response
 
 ``` json
-{"devices":[{"accepted":1,"coreClock":"1995.00MHz","efficiency":"248.55K","fanSpeed":"30%","gpuTemperature":"59C","hashRate":"73.51M","id":0,"invalid":0,"memoryClock":"1156.50MHz","name":"RTX 3080 Ti","powerUsage":"295.77W","powerUsageRaw":295.7659912109375,"rejected":0}],"totalAccepted":1,"totalHashRate":"73.51M","totalHashRateRaw":73513350.400137767,"totalInvalid":0,"totalPowerUsage":"295.77W","totalPowerUsageRaw":295.7659912109375,"totalRejected":0,"uptime":"0:00"}
+{
+	"devices": [{
+		"accepted": 1,
+		"coreClock": "1995.00MHz",
+		"efficiency": "248.55K",
+		"fanSpeed": "30%",
+		"gpuTemperature": "59C",
+		"hashRate": "73.51M",
+		"id": 0,
+		"invalid": 0,
+		"memoryClock": "1156.50MHz",
+		"name": "RTX 3080 Ti",
+		"powerUsage": "295.77W",
+		"powerUsageRaw": 295.7659912109375,
+		"rejected": 0
+	}],
+	"totalAccepted": 1,
+	"totalHashRate": "73.51M",
+	"totalHashRateRaw": 73513350.400137767,
+	"totalInvalid": 0,
+	"totalPowerUsage": "295.77W",
+	"totalPowerUsageRaw": 295.7659912109375,
+	"totalRejected": 0,
+	"uptime": "0:00"
+}
 ```
