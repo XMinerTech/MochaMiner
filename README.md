@@ -6,10 +6,6 @@ GPU Miner for `ETH`
 
 Be aware when you download XMiner binaries from other sources.
 
-## 中文说明
-
-[查看中文说明](/readme_zh.md)
-
 ## Download
 
 [Download here](https://github.com/XMinerTech/XMiner/releases)
@@ -19,14 +15,6 @@ Be aware when you download XMiner binaries from other sources.
 | Algorithm             |  COIN   |  P106-100  |  P104-8G   |   1070ti   |  1080ti  |   2080   | RX580 2048sp |
 | :--------------- | :-----: | :--------: | :--------: | :--------: | :------: | :------: | :----------: |
 | ethash           |   ETH   |   21.2M   |   34.5M    |   26.9M    |   46M    |  35.5M   |     24M      |
-| cuckatoo         | GRIN31  |     X      |    0.89    |    0.94    |   1.56   |   1.65   |      X       |
-| cuckatoo32       | GRIN32  |   0.215    |    0.38    |    0.41    |   0.63   |   0.65   |      X       |
-| cuckoo_ae        |   AE    |    3.35    |    5.5     |    5.15    |   7.9    |   8.75   |      X       |
-| progpow_sero     |  SERO   |   10.3M    |   17.5M    |   13.3M    |  22.5M   |  25.8M   |     10M      |
-| kawpow           |   RVN   |   10.3M    |   17.5M    |   13.3M    |  22.5M   |  25.8M   |     11M      |
-| beamv3           |  BEAM   |    12.5    |    19.6    |    19.5    |    26    |   30.5   |      X       |
-| octopus          |   CFX   |    5.5M    |    8.5M    |    9.8M    |  14.8M   |  48.5M   |     X     |
-| ergo | ERGO | 42M | 68M | 53M | 64M | 74M | 64M(eth bios) |
 
 ## Features
 
@@ -35,12 +23,6 @@ Be aware when you download XMiner binaries from other sources.
 * Support SSL connection to mining pools.
 * Dev Fee: 
   * ethash etchash 1%
-  * cuckatoo & cuckatoo32 & cuckoo_ae 2%
-  * progpow_sero 2%
-  * kawpow 2%
-  * beamv3 2%
-  * octopus 3%
-  * ergo 2%
 
 ## Requirements
 
@@ -50,16 +32,6 @@ Be aware when you download XMiner binaries from other sources.
 | Algorithm        |  Coin   | Compute Capability | Memory (Win7 & Linux) | Memory (Win10) |
 | :--------------- | :-----: | :----------------: | :-------------------: | :------------: |
 | ethash           |   ETH   | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          5GB          |      6GB      |
-| cuckatoo         | GRIN31  | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          8GB          |      10GB      |
-| cuckatoo32 | GRIN32 | 6.0, 6.1, 7.0, 7.5 | 8GB | 10GB |
-| cuckoo_ae        |   AE    | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          5GB          |      6GB       |
-| progpow_sero     |  SERO   | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          3GB          |      4GB      |
-| kawpow           |   RVN   | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          3GB          |      4GB      |
-| beamv3 | BEAM | 6.0, 6.1, 7.0, 7.5 | 3GB | 3GB |
-| octopus | CFX | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 | 5GB | 6GB |
-| ergo | ERGO | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 | 3GB | 3GB |
-
-- \* Compute Capability reference link: [wikipedia](<https://en.wikipedia.org/wiki/CUDA#GPUs_supported>)
 
 ## Sample Usages
 
