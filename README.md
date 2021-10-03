@@ -65,73 +65,18 @@ Be aware when you download XMiner binaries from other sources.
 
 #### ETH
 
-- **ethermine:** nbminer -a ethash -o ethproxy+tcp://asia1.ethermine.org:4444 -u 0x12343bdgf.worker
-- **sparkpool:** nbminer -a ethash -o ethproxy+tcp://cn.sparkpool.com:3333 -u 0x12343bdgf.worker
-- **f2pool:** nbminer -a ethash -o ethproxy+tcp://eth.f2pool.com:8008 -u 0x12343bdgf.worker
-- **beepool:** nbminer -a ethash -o ethproxy+tcp://eth-pool.beepool.org:9530 -u 0x12343bdgf.worker
-- **nanopool:** nbminer -a ethash -o ethproxy+tcp://eth-asia1.nanopool.org:9999 -u 0x12343bdgf.worker
-- **herominers:** nbminer -a ethash -o ethproxy+tcp://ethereum.herominers.com:10201 -u 0x12343bdgf.worker
-- **nicehash:** nbminer -a ethash -o nicehash+tcp://daggerhashimoto.eu.nicehash.com:3353 -u btc_address.worker
-- **miningpoolhub**: nbminer -a ethash -o nicehash+tcp://asia.ethash-hub.miningpoolhub.com:20535 -u username.worker
-
-#### ETH+ZIL:
-
-- **ezil**: nbminer -a ethash -o stratum+tcp://cn.ezil.me:5555 -u ETH_WALLET.ZIL_WALLET.WORKER --enable-dag-cache
-- **shardpool**: nbminer -a ethash -o stratum+tcp://ch1-zil.shardpool.io:3333 -u ETH_WALLET.WORKER -p ZIL_WALLET@cn.sparkpool.com:3333 -enable-dag-cache
-
-#### Grin32
-
-- **goblinpool**: nbminer -a cuckatoo32 -o stratum+tcp://grin32.goblinpool.com:3344 -u username.worker:passwd
-- **f2pool:** nbminer -a cuckatoo32 -o stratum+tcp://grin32.f2pool.com:13654 -u username.worker:passwd
-- **herominers:** nbminer -a cuckatoo32 -o stratum+tcp://grin.herominers.com:10301 -u username.worker:passwd
-- **nicehash:** nbminer -a cuckatoo32 -o nicehash+tcp://grincuckatoo32.hk.nicehash.com:3383 -u btc_address.worker
-
-#### AE
-
-- **f2pool**: nbminer -a cuckoo_ae -o stratum+tcp://ae.f2pool.com:7898 -u ak_xxxxxxx.worker:passwd
-- **beepool**: nbminer -a cuckoo_ae -o stratum+tcp://ae-pool.beepool.org:9505 -u ak_xxxx.worker:passwd
-- **nicehash**: nbminer -a cuckoo_ae -o nicehash+tcp://cuckoocycle.eu.nicehash.com:3376 -u btc_address.test
-
-#### SERO
-
-- **beepool**: nbminer -a progpow_sero -o stratum+tcp://sero-pool.beepool.org:9515 -u wallet_address.worker:pswd
-- **f2pool**: nbminer -a progpow_sero -o stratum+tcp//sero.f2pool.com:4200 -u wallet_address.worker:pswd
-
-#### RVN
-
-- **beepool**: nbminer -a kawpow -o  stratum+tcp://rvn-pool.beepool.org:9531 -u wallet.worker:passwd
-- **f2pool**: nbminer -a kawpow -o  stratum+tcp://raven.f2pool.com:3636 -u wallet.worker:passwd
-- **minermore**: nbminer -a kawpow -o stratum+tcp://us.rvn.minermore.com:4501 -u wallet.worker:paswd
-- **bsod**: nbminer -a kawpow -o stratum+tcp://pool.bsod.pw:2640 -u wallet.worker:passwd
-- **woolypooly**: nbminer -a kawpow -o stratum+tcp://rvn.woolypooly.com:55555 -u wallet.worker:passwd 
-
-#### BEAM
-
-- **sparkpool**: nbminer -a beamv3 -o stratum+ssl://beam.sparkpool.com:2222 -u wallet.worker:passwd
-- **beepool**: nbminer -a beamv3 -o stratum+ssl://beam-pool.beepool.org:9507 -u wallet.worker:passwd
-- **leafpool**: nbminer -a beamv3 -o stratum+ssl://beam-eu.leafpool.com:3333 -u wallet.worker:passwd
-- **herominers**: nbminer -a beamv3 -o stratum+ssl://beam.herominers.com:10231 -u wallet.worker:passwd
-- **nicehash**: nbminer -a beamv3 -o stratum+tcp://beamv3.eu.nicehash.com:3387 -u btc_address.worker
-
-#### CONFLUX
-
-- **beepool**: nbminer -a octopus -o stratum+tcp://cfx-pool.beepool.org:9555 -u wallet.worker
-- **poolflare**: nbminer -a octopus -o stratum+tcp://cfx.ss.poolflare.com:3366 -u wallet.worker
-- **f2pool**: nbminer -a octopus -o stratum+tcp://cfx.f2pool.com:6800 -u username.worker
-- **woolypooly**: nbminer -a octopus -o  stratum+tcp://cfx.woolypooly.com:3094 -u wallet.worker
-- **nicehash**: nbminer -a octopus -o stratum+tcp://octopus.eu.nicehash.com:3389 -u btc_address.worker
-
-#### ERGO
-
-- **herominers**: nbminer -a ergo -o stratum+tcp://ergo.herominers.com:10250 -u wallet.worker
-- **woolypooly**: nbminer -a ergo -o stratum+tcp://erg.woolypooly.com:3100 -u wallet.worker
-- **nanopool**: nbminer -a ergo -o stratum+tcp://ergo-eu1.nanopool.org:11111 -u wallet.worker
-- **666pool**: nbminer -a ergo -o stratum+tcp://ergo.666pool.cn:9556 -u wallet.worker
-- **nicehash**: nbminer -a ergo -o stratum+tcp://autolykos.eu-west.nicehash.com:3390 -u wallet.worker
+- **ethermine:** nbminer -a eth -p stratum://0x12343bdgf.worker@asia1.ethermine.org:4444
+- **sparkpool:** nbminer -a eth -p stratum://0x12343bdgf.worker@cn.sparkpool.com:3333
+- **f2pool:** nbminer -a eth -p stratum://0x12343bdgf.worker@eth.f2pool.com:8008
+- **beepool:** nbminer -a eth -p stratum://0x12343bdgf.worker@eth-pool.beepool.org:9530
+- **nanopool:** nbminer -a eth -p stratum://0x12343bdgf.worker@eth-asia1.nanopool.org:9999
+- **herominers:** nbminer -a eth -p stratum://0x12343bdgf.worker@ethereum.herominers.com:10201
+- **nicehash:** nbminer -a eth -p stratum://0x12343bdgf.worker@daggerhashimoto.eu.nicehash.com:3353
+- **miningpoolhub**: nbminer -a eth -p stratum://0x12343bdgf.worker@asia.ethash-hub.miningpoolhub.com:20535
 
 ## CMD options：
 
-**nbminer -a algo -o protocol+socket_type://pool_host:pool_port -u wallet_address.worker -p passwd**
+**XMiner -a algo -p protocol+socket_type://wallet_address.worker@pool_host:pool_port**
 
   * -h, --help    Displays this help.
   * -v, --version    Displays version information.
@@ -186,80 +131,5 @@ GET http://api_host:port/api/v1/status
 ### Response
 
 ``` json
-{
-    "miner": {
-        "devices": [
-            {
-                "accepted_shares": 2,
-                "accepted_shares2": 0,
-                "core_clock": 1620,
-                "core_utilization": 100,
-                "fan": 47,
-                "fidelity1": 5.859799716605649,
-                "fidelity2": 0,
-                "hashrate": "217.1 M",
-                "hashrate2": "36.19 M",
-                "hashrate2_raw": 36190716.266428046,
-                "hashrate_raw": 217144297.59856823,
-                "id": 0,
-                "info": "GeForce RTX 2070",
-                "mem_clock": 6801,
-                "mem_utilization": 86,
-                "pci_bus_id": 1,
-                "power": 188,
-                "rejected_shares": 0,
-                "rejected_shares2": 0,
-                "temperature": 72
-            },
-            {
-                "accepted_shares": 0,
-                "accepted_shares2": 0,
-                "core_clock": 1607,
-                "core_utilization": 100,
-                "fan": 0,
-                "fidelity1": 0,
-                "fidelity2": 0,
-                "hashrate": "168.5 M",
-                "hashrate2": "42.11 M",
-                "hashrate2_raw": 42113955.19774488,
-                "hashrate_raw": 168455820.79097953,
-                "id": 1,
-                "info": "P102-100",
-                "mem_clock": 5508,
-                "mem_utilization": 100,
-                "pci_bus_id": 4,
-                "power": 232,
-                "rejected_shares": 0,
-                "rejected_shares2": 0,
-                "temperature": 57
-            }
-        ],
-        "total_hashrate": "708 M",
-        "total_hashrate2": "164.4 M",
-        "total_hashrate2_raw": 164395439.13815895,
-        "total_hashrate_raw": 708044466.8349969,
-        "total_power_consume": 839
-    },
-    "reboot_times": 0,
-    "start_time": 1586944619,
-    "stratum": {
-        "accepted_shares": 2,
-        "accepted_shares2": 0,
-        "algorithm": "hns_ethash",
-        "difficulty": "8.59 G",
-        "difficulty2": "8.59 G",
-        "dual_mine": true,
-        "latency": 221,
-        "latency2": 0,
-        "rejected_shares": 0,
-        "rejected_shares2": 0,
-        "url": "handshake.hk.nicehash.com:3384",
-        "url2": "daggerhashimoto.hk.nicehash.com:3353",
-        "use_ssl": false,
-        "use_ssl2": false,
-        "user": "3QHNv52ahdCyeYTGVYDPGjRzMpkknjjfAf.test",
-        "user2": "3QHNv52ahdCyeYTGVYDPGjRzMpkknjjfAf.test"
-    },
-    "version": "30.0"
-}
+{"devices":[{"accepted":1,"coreClock":"1995.00MHz","efficiency":"248.55K","fanSpeed":"30%","gpuTemperature":"59C","hashRate":"73.51M","id":0,"invalid":0,"memoryClock":"1156.50MHz","name":"RTX 3080 Ti","powerUsage":"295.77W","powerUsageRaw":295.7659912109375,"rejected":0}],"totalAccepted":1,"totalHashRate":"73.51M","totalHashRateRaw":73513350.400137767,"totalInvalid":0,"totalPowerUsage":"295.77W","totalPowerUsageRaw":295.7659912109375,"totalRejected":0,"uptime":"0:00"}
 ```
