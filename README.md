@@ -6,6 +6,8 @@ GPU Miner for `ETH`
 
 Be aware when you download XMiner binaries from other sources.
 
+![](https://s3.bmp.ovh/imgs/2021/11/c61dfe8c85e72d04.png)
+
 ## Download
 
 [Download here](https://github.com/XMinerTech/XMiner/releases)
