@@ -13,3 +13,16 @@ NVIDIA、AMD显卡的`ETH`, `RVN`, `BEAM`, `CFX`, `ZIL`, `ERGO`, `AE`挖矿软�
 ![](https://s3.bmp.ovh/imgs/2021/11/c61dfe8c85e72d04.png)
 ![](https://s3.bmp.ovh/imgs/2021/11/1e5b6b9348503b42.png)
 ![](https://s3.bmp.ovh/imgs/2021/11/b0d04366cdedabc3.png)
+
+# 版本更新列表
+
+## 1.2.0
+
+* 解决部分矿池被封禁的问题
+* 增加矿池列表
+* 完善AMD显卡支持
+* 集成最新内核
+
+## 1.1.0
+
+* 完善超频功能
