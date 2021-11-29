@@ -32,4 +32,4 @@ NVIDIA、AMD显卡的`ETH`, `RVN`, `BEAM`, `CFX`, `ZIL`, `ERGO`, `AE`挖矿软�
 ## 1.1.0
 
 * 完善超频功能
-* 支持web端访问
+* 支持WEB端访问 (使用浏览器直接访问机器所在的IP地址)
