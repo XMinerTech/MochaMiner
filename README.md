@@ -1,6 +1,6 @@
 ![](/logo.png)
 
-# XMiner
+# MochaMiner 摩卡矿工
 
 NVIDIA、AMD显卡的`ETH`, `RVN`, `BEAM`, `CFX`, `ZIL`, `ERGO`, `AE`挖矿软件。
 
