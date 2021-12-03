@@ -4,6 +4,8 @@
 
 NVIDIA、AMD显卡的`ETH`, `RVN`, `BEAM`, `CFX`, `ZIL`, `ERGO`, `AE`挖矿软件。
 
+请注意: 请您在符合当地法律法规的情况下使用此软件, 如果违反相关规定则由此产生的法律后果由您自行承担。
+
 ## 特色
 
 * 支持多币种、多内核
@@ -13,8 +15,6 @@ NVIDIA、AMD显卡的`ETH`, `RVN`, `BEAM`, `CFX`, `ZIL`, `ERGO`, `AE`挖矿软�
 * 支持读取多种显卡参数，媲美 GPU-Z
 
 ## 下载地址
-
-请注意: 请您在符合当地法律法规的情况下使用此软件, 如果违反相关规定则由此产生的法律后果由您自行承担。
 
 [Download here](https://github.com/XMinerTech/MochaMiner/releases)
 
