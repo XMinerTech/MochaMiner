@@ -16,7 +16,7 @@ NVIDIA、AMD显卡的`ETH`, `RVN`, `BEAM`, `CFX`, `ZIL`, `ERGO`, `AE`挖矿软�
 
 ## 下载地址
 
-[Download here](https://github.com/XMinerTech/MochaMiner/releases)
+[版本列表](https://github.com/XMinerTech/MochaMiner/releases)
 
 
 # 版本更新列表
